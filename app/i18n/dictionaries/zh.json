@@ -1,0 +1,136 @@
+{
+  "navigation": {
+    "home": "首页",
+    "micro_ai_saas": "m1cro AI SaaS",
+    "agent_as_company": "agent as Company",
+    "bodhi": "bodhi Protocol",
+    "tokens": "🥇tokens",
+    "twitter": "🐦twitt3r",
+    "telegram": "tel3gram"
+  },
+  "hero": {
+    "title": "rootMUD DAO",
+    "subtitle": "让 AI Agent 成为链上公司，真正收益 > 成本",
+    "description": "",
+    "description_4": "在 AI 叙事的时代背景下，将分散在不同机构与个人下的粤语数据进行归集，从而构建「粤语数据集 — 大语言模型 — AI Agent — 创新应用」为一体的完整体系。",
+    "description_3": "四大特性：\n* **AI 友好** — 具备和大模型与小模型对接的接口\n* **AI Agent 友好** — 具备和 AI Agents 对接的接口\n* **模块热插拔** — 系统可以动态加入新的能力，例如接入「区块链确权模块」\n* **社区模式** — 坚持核心团队与技术社区共建的模式，共同打造主系统、语料集、粤语 Apps 与模块库",
+    "description_2": "如何做到？我们需要: \n* **Micro AI SaaS** — Agent 版本的 Upwork\n* **Scaffold Onchain Agent** — 可以产出链上 Agent 公司的工厂\n* **Bodhi Protocol** —  让 Agent 和 Data 股份化的链上协议\n* **rootMUD DAO ** - 一个以 DAO 的形式运转的社区。",
+    "getStarted": "什么是 AI Agent 就像链上公司一样？",
+    "scrollIndicator": "滚动探索"
+  },
+  "agentAsCompany": {
+    "title": "什么是 AI Agent 就像链上公司一样？",
+    "description": "我们认为，AI Agent 要解决的核心问题不是如何提效，而是 AI Agent 如何持续盈利？就像一个年轻人要解决的核心问题不是如何高效打工，而是如何挣钱一样。",
+    "speakers": ".",
+    "period": "."
+  },
+  "bodhiProtocol": {
+    "title": "什么是 Bodhi Protocol？",
+    "description": "一个将 Agent 和 Data 股份化的链上协议。借助 Bodhi Protocol，AI Agents 可以一键「发行股份」，然后就可以有很多超酷的玩法！"
+  },
+  "aiSaaS": {
+    "title": "什么是 AI SaaS？",
+    "description": "AI Agent 版本的 **Upwork**，用户在 AI SaaS 上发布任务和悬赏金额，AI Agents 可以接单并获得收益（各种不同的代币）。"
+  },
+  "features": {
+    "title": "核心命题",
+    "subtitle": "Dim Sum AI 实验室致力于探索一系列关键命题。",
+    "items": {
+      "corpus": {
+        "title": "语料库开发",
+        "description": "如何制定标注标准，高效构建大规模自主多模态粤语语料库？"
+      },
+      "ecosystem": {
+        "title": "应用生态系统",
+        "description": "如何设计访问机制，基于粤语语料库创建粤语应用商店和多元化粤语应用生态系统？"
+      },
+      "search": {
+        "title": "搜索引擎创新",
+        "description": "如何改进搜索算法，基于粤语语料库开发下一代AI友好的搜索引擎？"
+      },
+      "saas": {
+        "title": "AI SaaS框架",
+        "description": "如何创新服务模式，基于粤语语料库创建下一代AI SaaS框架？"
+      },
+      "community": {
+        "title": "社区建设",
+        "description": "如何培育开源社区，围绕粤语语料库建设下一代全球建设者和研究者社区（建设者与研究者DAO）？"
+      }
+    }
+  },
+  "architecture": {
+    "title": "系统架构",
+    "subtitle": "专为可扩展粤语AI开发设计的四层综合架构",
+    "layers": {
+      "application": {
+        "name": "应用层",
+        "subtitle": "面向用户的解决方案",
+        "description": "终端用户应用和智能代理",
+        "items": ["AI Agents", "粤语应用", "粤语工具", "小程序", "浏览器插件"]
+      },
+      "api": {
+        "name": "API网关",
+        "subtitle": "集成接口",
+        "description": "开发者的标准化接口",
+        "items": ["REST APIs", "GraphQL APIs", "自然语言接口"]
+      },
+      "core": {
+        "name": "核心服务",
+        "subtitle": "AI基础设施",
+        "description": "核心AI和服务基础设施",
+        "items": ["AI搜索引擎", "AI SaaS框架", "AI Agent 系统", "插件系统"]
+      },
+      "data": {
+        "name": "数据基础",
+        "subtitle": "知识库",
+        "description": "数据基础和标注基础设施",
+        "items": ["多模态数据仓库", "混合标注系统"]
+      }
+    }
+  },
+  "quickLinks": {
+    "title": "快速访问",
+    "subtitle": "直接访问我们的核心粤语AI资源和服务",
+    "items": {
+      "data": {
+        "title": "粤语数据",
+        "description": "访问我们具有高级数据处理功能的综合粤语语料库",
+        "button": "了解更多"
+      },
+      "store": {
+        "title": "应用商店",
+        "description": "探索基于我们语料库构建的多元化粤语应用生态系统",
+        "button": "了解更多"
+      },
+      "apis": {
+        "title": "API接口",
+        "description": "通过我们全面的API套件将粤语AI功能集成到您的应用中",
+        "button": "了解更多"
+      }
+    }
+  },
+  "footer": {
+    "company": "rootMUD DAO",
+    "description": "AI Agent x Web3",
+    "partners": "合作伙伴",
+    "copyright": "© 2025 rootMUD DAO。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 政策",
+    "wechat": {
+      "title": "媒体",
+      "description": "关注我们的微信公众号，获取最新资讯和更新。",
+      "button": "微信公众号",
+      "modal": {
+        "title": "AI Dim Sum Lab 公众号",
+        "description": "扫码关注，获取最新资讯"
+      }
+    }
+  },
+  "language": {
+    "switch": "语言",
+    "en": "English",
+    "zh": "中文",
+    "yue": "粵語"
+  }
+} 
