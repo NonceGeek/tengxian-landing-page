@@ -3,7 +3,7 @@ import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SmoothScroll from "./SmoothScroll";
-import LanguageSwitcher from "./LanguageSwitcher";
+// import LanguageSwitcher from "./LanguageSwitcher";
 import { type Locale } from "../i18n/config";
 import { type Dictionary } from "../i18n/types";
 
@@ -19,16 +19,6 @@ export default function Header({ locale, dict }: HeaderProps) {
 
   const navItems = [
     { label: dict.navigation.home, id: "hero", href: "/" },
-
-    { label: dict.navigation.agent_as_company, id: "agent-as-company", href: "/"},
-    { label: dict.navigation.micro_ai_saas, id: "ai-saas", href: "/"},
-    { label: dict.navigation.bodhi, id: "bodhi-protocol", href: "/"},
-  ];
-
-  const externalNavItems = [
-    { label: dict.navigation.tokens, href: "https://optimistic.etherscan.io/token/0xe6c480E8B6D668626671F2630D19D8c49F92Ad62#balances" },
-    { label: dict.navigation.twitter, href: "https://x.com/rootMUD" },
-    { label: dict.navigation.telegram, href: "https://t.me/rootMUD" },
   ];
 
   const renderNavItem = (item: {
@@ -109,7 +99,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                 {navItems.map((item) => (
                   <li key={item.id || item.href}>{renderNavItem(item)}</li>
                 ))}
-                {externalNavItems.map((item) => (
+                {/* {externalNavItems.map((item) => (
                   <li key={item.href}>
                     <Link 
                       href={item.href}
@@ -121,7 +111,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                       {item.label}
                     </Link>
                   </li>
-                ))}
+                ))} */}
               </ul>
             </div>
             <Link
@@ -134,7 +124,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                 className="w-8 h-8 rounded-lg"
               />
               <h1 className="text-xl lg:text-2xl font-bold tech-heading text-primary min-w-[10rem] lg:min-w-[12rem]">
-                - rootMUD DAO -
+                - AI DimSum Lab -
               </h1>
             </Link>
           </div>
@@ -145,7 +135,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                 <li key={item.id || item.href}>{renderDesktopNavItem(item)}</li>
               ))}
               
-              {externalNavItems.map((item) => (
+              {/* {externalNavItems.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
@@ -158,16 +148,16 @@ export default function Header({ locale, dict }: HeaderProps) {
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
                   </Link>
                 </li>
-              ))}
+              ))} */}
             </ul>
 
-            {/* 语言切换器 */}
-            <LanguageSwitcher currentLocale={locale} />
+            {/* 语言切换器
+            <LanguageSwitcher currentLocale={locale} /> */}
           </div>
 
           <div className="lg:hidden flex items-center space-x-2">
             {/* 移动端语言切换器 */}
-            <LanguageSwitcher currentLocale={locale} />
+            {/* <LanguageSwitcher currentLocale={locale} /> */}
           </div>
         </div>
       </div>

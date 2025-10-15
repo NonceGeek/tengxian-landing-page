@@ -11,7 +11,7 @@ export default function WeChatQRCodeModal({ dict }: WeChatQRCodeModalProps) {
     <div className="space-y-4 text-center">
       <h4 className="text-lg font-semibold text-primary">{dict.footer.wechat.title}</h4>
       <p className="text-sm text-base-content/70">{dict.footer.wechat.description}</p>
-      <a href="https://x.com/rootMUD" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/0xleeduckgo" target="_blank" rel="noopener noreferrer">
         <button className="btn btn-primary btn-sm">
           <X className="w-4 h-4" /> 👈
         </button>

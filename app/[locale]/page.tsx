@@ -2,9 +2,7 @@ import { getDictionary } from '../i18n/getDictionary';
 import { type Locale } from '../i18n/config';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import AgentAsCompany from '../components/AgentAsCompany';
-import AISaaS from '../components/AISaaS';
-import BodhiProtocol from '../components/BodhiProtocol';
+import Examples from '../components/Examples';
 import Footer from '../components/Footer';
 import ScrollProgress from '../components/ScrollProgress';
 
@@ -69,13 +67,7 @@ export default async function Home({ params }: PageProps) {
       <div className="container mx-auto py-8 pt-24 lg:pt-28">
         <Hero dict={dict} />
 
-        <AgentAsCompany dict={dict} />
-
-        <AISaaS dict={dict} />
-
-        <BodhiProtocol dict={dict} />
-
-        {/* <QuickLinks dict={dict} /> */}
+        <Examples dict={dict} />
 
         <Footer dict={dict} />
       </div>

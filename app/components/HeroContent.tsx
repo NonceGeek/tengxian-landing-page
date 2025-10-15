@@ -1,6 +1,5 @@
 'use client';
 
-import { Rocket } from 'lucide-react';
 import { FadeInUp } from './ScrollReveal';
 import { type Dictionary } from '../i18n/types';
 
@@ -48,32 +47,23 @@ export default function HeroContent({ dict }: HeroContentProps) {
               ))}
             </p>
           </FadeInUp>
-
-          <FadeInUp delay={0.5}>
-            <p className="text-sm lg:text-base text-base-content/80 mb-8 leading-loose tech-text max-w-4xl">
-              {dict.hero.description_2.split('\n').map((line, index) => (
-                <span key={index}>
-                  {line.split(/(\*\*.*?\*\*)/).map((part, partIndex) => {
-                    if (part.startsWith('**') && part.endsWith('**')) {
-                      return <strong className="hero-gradient-text" key={partIndex}>{part.slice(2, -2)}</strong>;
-                    }
-                    return part;
-                  })}
-                  {index < dict.hero.description_2.split('\n').length - 1 && <br />}
-                </span>
-              ))}
-            </p>
-          </FadeInUp>
-
           {/* 按钮组 */}
           <FadeInUp delay={0.7}>
             <div className="flex gap-4 flex-wrap">
-              <a href="#agent-as-company" className="btn btn-primary btn-base group relative overflow-hidden btn-shimmer">
-                <Rocket className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
+              <a href="#examples" className="btn btn-primary btn-base group relative overflow-hidden btn-shimmer">
                 {dict.hero.getStarted}
+              </a>
+              &nbsp;&nbsp;
+              <a href="https://search.aidimsum.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-base group relative overflow-hidden btn-shimmer">
+                {dict.hero.btn}
+              </a>
+              &nbsp;&nbsp;
+              <a href="" className="btn btn-primary btn-base group relative overflow-hidden btn-shimmer">
+                {dict.hero.btn_2}
               </a>
             </div>
           </FadeInUp>
+          
         </div>
       </div>
     </div>

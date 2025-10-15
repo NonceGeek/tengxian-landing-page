@@ -32,9 +32,9 @@ export default function AISaaS({ dict }: AISaaSProps) {
               
               {/* 描述文本 - 移动端行高和字体大小优化 */}
               {/* <p className="text-base sm:text-lg md:text-xl text-base-content/90 leading-relaxed tech-text mb-4 sm:mb-5 max-w-2xl mx-auto md:mx-0">
-                {dict.agentAsCompany.description}
-                <span className="font-bold"> {dict.agentAsCompany.speakers}</span>
-                {dict.agentAsCompany.period}
+                {dict.Examples.description}
+                <span className="font-bold"> {dict.Examples.speakers}</span>
+                {dict.Examples.period}
               </p> */}
 
               <p className="text-sm lg:text-base text-base-content/80 mb-8 leading-loose tech-text max-w-4xl">
@@ -56,7 +56,7 @@ export default function AISaaS({ dict }: AISaaSProps) {
                         return part;
                       })}
                       {index <
-                        dict.agentAsCompany.description.split("\n").length -
+                        dict.Examples.description.split("\n").length -
                           1 && <br />}
                     </span>
                   ))}

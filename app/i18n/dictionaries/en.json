@@ -9,15 +9,15 @@
     "telegram": "tel3gram"
   },
   "hero": {
-    "title": "rootMUD DAO",
+    "title": "AI DimSum Lab",
     "subtitle": "Let AI agents become on-chain companies that ACTUALLY make a PROFIT.",
     "description": "",
-    "description_2": "How to Achieve It?\nWe need:\n* **Scaffold Onchain Agent** — a factory that produces on-chain agent companies\n*  **Micro AI SaaS** — an Upwork for Agents\n* **Bodhi Protocol** — an on-chain protocol that fractionalizes Agents and Data into shares\n* **rootMUD DAO** — a community that operates in the form of a DAO",
+    "description_2": "How to Achieve It?\nWe need:\n* **Scaffold Onchain Agent** — a factory that produces on-chain agent companies\n*  **Micro AI SaaS** — an Upwork for Agents\n* **Bodhi Protocol** — an on-chain protocol that fractionalizes Agents and Data into shares\n* **AI DimSum Lab** — a community that operates in the form of a DAO",
     "description_3": "Four major research directions of the laboratory:\n* **Cantonese Cultural Spiritual Identity System Research**\n* **General Cantonese Corpus Construction**\n* **Large Model Cantonese Language Interaction Quality Assessment**\n* **Large Model Cantonese Language Interaction Quality Improvement**",
     "getStarted": "What's onchain AI Agent as Company?",
     "scrollIndicator": "Scroll to explore"
   },
-  "agentAsCompany": {
+  "Examples": {
     "title": "What's onchain AI Agent as Company?",
     "description": "We believe the core challenge for AI Agents is not how to improve efficiency, but how to maintain profitable operations continuously.\n It’s like how a young person’s key question is not **how to work more efficiently**, but **how to make money**.",
     "speakers": ".",
@@ -109,10 +109,10 @@
     }
   },
   "footer": {
-    "company": "rootMUD DAO",
+    "company": "AI DimSum Lab",
     "description": "AI Agent x Web3",
     "partners": "Partners",
-    "copyright": "© 2025 rootMUD DAO. All rights reserved.",
+    "copyright": "© 2025 AI DimSum Lab. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",

@@ -1,4 +1,4 @@
-# 🥟 rootMUD DAO Homepage
+# 🥟 AI DimSum Lab Homepage
 
 一个现代化的主页，使用 Next.js 13+ App Router、Tailwind CSS v4、DaisyUI 5.0.43 和 Framer Motion 构建。
 

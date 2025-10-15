@@ -43,9 +43,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   const { locale } = await params;
   
   const titles = {
-    en: "- rootMUD DAO -",
-    zh: "- rootMUD DAO -",
-    yue: "- rootMUD DAO -"
+    en: "- AI DimSum Lab -",
+    zh: "- AI DimSum Lab -",
+    yue: "- AI DimSum Lab -"
   };
   
   const descriptions = {
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     title: titles[locale],
     description: descriptions[locale],
     keywords: ["Web3", "AI", "人工智能",  "LLM", "Agent"],
-    authors: [{ name: "rootMUD DAO" }],
+    authors: [{ name: "AI DimSum Lab" }],
     viewport: "width=device-width, initial-scale=1",
     robots: "index, follow",
   };

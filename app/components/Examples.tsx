@@ -3,14 +3,14 @@ import LogoFloat from './LogoFloat';
 import AnimatedText from './AnimatedText';
 import { type Dictionary } from '../i18n/types';
 
-interface AgentAsCompanyProps {
+interface ExamplesProps {
   dict: Dictionary;
 }
 
-export default function AgentAsCompany({ dict }: AgentAsCompanyProps) {
+export default function Examples({ dict }: ExamplesProps) {
   return (
     <FadeInUp>
-      <section id="agent-as-company" className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8">
+      <section id="examples" className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8">
         {/* 背景渐变光晕 - 移动端优化 */}
         <div className="pointer-events-none absolute inset-0 z-0">
           <div className="absolute left-1/4 top-1/3 w-[80vw] h-[80vw] sm:w-[70vw] sm:h-[70vw] md:w-[60vw] md:h-[60vw] max-w-2xl max-h-2xl bg-gradient-to-br from-primary/15 via-accent/8 to-secondary/15 sm:from-primary/20 sm:via-accent/10 sm:to-secondary/20 blur-2xl sm:blur-3xl opacity-60 sm:opacity-70 dark:from-primary/30 dark:via-accent/20 dark:to-secondary/30 dark:opacity-80 dark:sm:opacity-90 rounded-full" />
@@ -34,7 +34,7 @@ export default function AgentAsCompany({ dict }: AgentAsCompanyProps) {
             <div className="flex-1 text-center md:text-left flex flex-col justify-center">
               {/* 标题 - 移动端字体大小调整 */}
               <AnimatedText 
-                text={dict.agentAsCompany.title}
+                text={dict.Examples.title}
                 as="h2"
                 className="text-2xl lg:text-4xl mb-3 sm:mb-4 font-extrabold tech-heading tracking-tight leading-tight gradient-text-flow"
                 delay={0.3}
@@ -42,13 +42,13 @@ export default function AgentAsCompany({ dict }: AgentAsCompanyProps) {
               
               {/* 描述文本 - 移动端行高和字体大小优化 */}
               {/* <p className="text-base sm:text-lg md:text-xl text-base-content/90 leading-relaxed tech-text mb-4 sm:mb-5 max-w-2xl mx-auto md:mx-0">
-                {dict.agentAsCompany.description}
-                <span className="font-bold"> {dict.agentAsCompany.speakers}</span>
-                {dict.agentAsCompany.period}
+                {dict.Examples.description}
+                <span className="font-bold"> {dict.Examples.speakers}</span>
+                {dict.Examples.period}
               </p> */}
 
               <p className="text-sm lg:text-base text-base-content/80 mb-8 leading-loose tech-text max-w-4xl">
-                {dict.agentAsCompany.description
+                {dict.Examples.description
                   .split("\n")
                   .map((line, index) => (
                     <span key={index}>
@@ -66,7 +66,7 @@ export default function AgentAsCompany({ dict }: AgentAsCompanyProps) {
                         return part;
                       })}
                       {index <
-                        dict.agentAsCompany.description.split("\n").length -
+                        dict.Examples.description.split("\n").length -
                           1 && <br />}
                     </span>
                   ))}

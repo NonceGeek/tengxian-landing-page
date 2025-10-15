@@ -22,7 +22,7 @@ export default function Footer({ dict }: FooterProps) {
             <FadeInLeft delay={0.2}>
               <div className="space-y-4">
                 <div className="flex items-center space-x-2">
-                  <img src="/favicon.ico" alt="rootMUD Logo" className="w-8 h-8 rounded-lg" />
+                  <img src="/favicon.ico" alt="aidimsum Logo" className="w-8 h-8 rounded-lg" />
                   <h3 className="text-xl font-bold text-primary">{dict.footer.company}</h3>
             </div>
                 <p className="text-sm text-base-content/80 leading-relaxed">
@@ -30,7 +30,7 @@ export default function Footer({ dict }: FooterProps) {
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/rootMUD"
+                    href="https://github.com/noncegeek"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

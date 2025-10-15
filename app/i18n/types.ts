@@ -25,7 +25,7 @@ export interface Dictionary {
     title: string;
     description: string;
   };
-  agentAsCompany: {
+  Examples: {
     title: string;
     description: string;
     speakers: string;

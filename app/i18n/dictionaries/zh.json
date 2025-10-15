@@ -9,20 +9,25 @@
     "telegram": "tel3gram"
   },
   "hero": {
-    "title": "rootMUD DAO",
-    "subtitle": "让 AI Agent 成为链上公司，真正收益 > 成本",
+    "title": "粤语勾漏片藤县话语料",
+    "subtitle": "粤语勾漏片藤县话语料 是一套高质量的方言语音与文本平行语料数据集，总容量为 20.34 GB，涵盖广西藤县地区的粤语勾漏片方言语料资源。该语料由本地母语者录制与转写，旨在为 方言语音识别、语音合成、方言研究与语言多样性保护 提供基础数据支持。",
     "description": "",
     "description_4": "在 AI 叙事的时代背景下，将分散在不同机构与个人下的粤语数据进行归集，从而构建「粤语数据集 — 大语言模型 — AI Agent — 创新应用」为一体的完整体系。",
     "description_3": "四大特性：\n* **AI 友好** — 具备和大模型与小模型对接的接口\n* **AI Agent 友好** — 具备和 AI Agents 对接的接口\n* **模块热插拔** — 系统可以动态加入新的能力，例如接入「区块链确权模块」\n* **社区模式** — 坚持核心团队与技术社区共建的模式，共同打造主系统、语料集、粤语 Apps 与模块库",
-    "description_2": "如何做到？我们需要: \n* **Micro AI SaaS** — Agent 版本的 Upwork\n* **Scaffold Onchain Agent** — 可以产出链上 Agent 公司的工厂\n* **Bodhi Protocol** —  让 Agent 和 Data 股份化的链上协议\n* **rootMUD DAO ** - 一个以 DAO 的形式运转的社区。",
-    "getStarted": "什么是 AI Agent 就像链上公司一样？",
+    "description_2": "如何做到？我们需要: \n* **Micro AI SaaS** — Agent 版本的 Upwork\n* **Scaffold Onchain Agent** — 可以产出链上 Agent 公司的工厂\n* **Bodhi Protocol** —  让 Agent 和 Data 股份化的链上协议\n* **DimSum AI Lab ** - 一个以 DAO 的形式运转的社区。",
+    "getStarted": "查看示例数据",
+    "btn": "语料搜索引擎",
+    "btn_2": "联系我们",
     "scrollIndicator": "滚动探索"
   },
-  "agentAsCompany": {
+  "Examples": {
     "title": "什么是 AI Agent 就像链上公司一样？",
     "description": "我们认为，AI Agent 要解决的核心问题不是如何提效，而是 AI Agent 如何持续盈利？就像一个年轻人要解决的核心问题不是如何高效打工，而是如何挣钱一样。",
     "speakers": ".",
-    "period": "."
+    "period": ".",
+    "timestamp": "时间戳",
+    "mandarin": "普通话",
+    "tengxian": "藤县话"
   },
   "bodhiProtocol": {
     "title": "什么是 Bodhi Protocol？",
@@ -110,10 +115,10 @@
     }
   },
   "footer": {
-    "company": "rootMUD DAO",
-    "description": "AI Agent x Web3",
+    "company": "DIMSUM AI 實驗室",
+    "description": "Buidl the c00lest Cantonese Corpus System!",
     "partners": "合作伙伴",
-    "copyright": "© 2025 rootMUD DAO。保留所有权利。",
+    "copyright": "© 2025 DIMSUM AI 實驗室。保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "Cookie 政策",
