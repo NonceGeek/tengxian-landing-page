@@ -19,9 +19,15 @@
   },
   "Examples": {
     "title": "What's onchain AI Agent as Company?",
-    "description": "We believe the core challenge for AI Agents is not how to improve efficiency, but how to maintain profitable operations continuously.\n It’s like how a young person’s key question is not **how to work more efficiently**, but **how to make money**.",
+    "description": "We believe the core challenge for AI Agents is not how to improve efficiency, but how to maintain profitable operations continuously.\n It's like how a young person's key question is not **how to work more efficiently**, but **how to make money**.",
     "speakers": ".",
-    "period": "."
+    "period": ".",
+    "timestamp": "Timestamp",
+    "mandarin": "Mandarin",
+    "tengxian": "Tengxian",
+    "audioTitle": "Tengxian Dialect Audio Sample",
+    "audioDescription": "Listen to authentic Tengxian dialect recordings",
+    "replay": "Replay Audio"
   },
   "aiSaaS": {
     "title": "What's AI SaaS?",

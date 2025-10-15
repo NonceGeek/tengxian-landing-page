@@ -27,7 +27,10 @@
     "period": ".",
     "timestamp": "时间戳",
     "mandarin": "普通话",
-    "tengxian": "藤县话"
+    "tengxian": "藤县话",
+    "audioTitle": "藤县话音频示例",
+    "audioDescription": "聆听地道的藤县话录音",
+    "replay": "重新播放"
   },
   "bodhiProtocol": {
     "title": "什么是 Bodhi Protocol？",

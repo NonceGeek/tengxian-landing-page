@@ -56,6 +56,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // 跳过所有内部路径 (_next)
-    '/((?!_next|api|favicon.ico|logo.png|logo_ai_agent.png|logo_bodhi.png|logo_saas.svg|qr_code.jpg|file.svg|globe.svg|next.svg|vercel.svg|window.svg|fonts).*)',
+    '/((?!_next|api|favicon.ico|corpus_demo.csv|demo.m4a).*)',
   ],
 }; 
