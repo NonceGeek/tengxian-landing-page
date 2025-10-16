@@ -1,6 +1,8 @@
-# 🥟 AI DimSum Lab Homepage
+# 🥟 TENGXIAN Landing Page
 
-一个现代化的主页，使用 Next.js 13+ App Router、Tailwind CSS v4、DaisyUI 5.0.43 和 Framer Motion 构建。
+> https://tengxian.dataset.aidimsum.com/
+
+一个现代化的语料集 Landing Page，使用 Next.js 13+ App Router、Tailwind CSS v4、DaisyUI 5.0.43 和 Framer Motion 构建。
 
 ## ✨ 特性
 
@@ -65,6 +67,8 @@ frontend/
 │   └── page.tsx            # 首页
 ├── docs/                   # 项目文档
 ├── public/                 # 静态资源
+    ├── corpus_demo.csv     # 语料集，csv 格式
+    └── demo.m4a            # 音频文件，m4a 格式
 └── package.json            # 项目配置
 ```
 
@@ -116,7 +120,7 @@ frontend/
 
 ## 📞 联系我们
 
-- Twitter: [rootMUD](https://twitter.com/rootmud)
+- Wechat: 197626581
 
 ---
 
