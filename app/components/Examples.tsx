@@ -1,5 +1,4 @@
 "use client";
-import { FadeInUp } from "./ScrollReveal";
 import { type Dictionary } from "../i18n/types";
 import { useEffect, useState } from "react";
 import Papa, { ParseResult } from "papaparse";
@@ -69,35 +68,31 @@ export default function Examples({ dict }: ExamplesProps) {
 
   if (isLoading) {
     return (
-      <FadeInUp>
         <section
           id="examples"
-          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100 pt-[100px]"
         >
           <div className="text-center">Loading corpus data...</div>
         </section>
-      </FadeInUp>
     );
   }
 
   if (error) {
     return (
-      <FadeInUp>
         <section
           id="examples"
-          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100 pt-[100px]"
         >
           <div className="text-center text-red-500">{error}</div>
         </section>
-      </FadeInUp>
     );
   }
 
   return (
-    <FadeInUp>
+    // HINT: change pt for the height of this section.
         <section
           id="examples"
-          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100 pt-[100px]"
         >
         <div className="w-full overflow-x-auto">
           <div className="max-w-3xl mx-auto mb-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
@@ -163,6 +158,5 @@ export default function Examples({ dict }: ExamplesProps) {
           </table>
         </div>
       </section>
-    </FadeInUp>
   );
 }
