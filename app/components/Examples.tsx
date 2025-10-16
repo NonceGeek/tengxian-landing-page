@@ -12,14 +12,7 @@ interface CorpusEntry {
 }
 
 interface ExamplesProps {
-  dict: Dictionary & {
-    timestamp: string;
-    mandarin: string;
-    tengxian: string;
-    audioTitle?: string;
-    audioDescription?: string;
-    replay?: string;
-  };
+  dict: Dictionary;
 }
 
 interface CSVRow {
@@ -79,7 +72,7 @@ export default function Examples({ dict }: ExamplesProps) {
       <FadeInUp>
         <section
           id="examples"
-          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
         >
           <div className="text-center">Loading corpus data...</div>
         </section>
@@ -92,7 +85,7 @@ export default function Examples({ dict }: ExamplesProps) {
       <FadeInUp>
         <section
           id="examples"
-          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
         >
           <div className="text-center text-red-500">{error}</div>
         </section>
@@ -102,19 +95,19 @@ export default function Examples({ dict }: ExamplesProps) {
 
   return (
     <FadeInUp>
-      <section
-        id="examples"
-        className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8"
-      >
+        <section
+          id="examples"
+          className="relative overflow-hidden w-full mx-auto min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center pb-20 sm:pb-28 md:pb-36 lg:pb-40 px-4 sm:px-6 md:px-8 bg-base-100"
+        >
         <div className="w-full overflow-x-auto">
           <div className="max-w-3xl mx-auto mb-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
             <div className="flex flex-col space-y-2">
               <div className="flex items-center justify-between">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-                  {dict.audioTitle || "Audio Sample"}
+                  {dict.Examples.audioTitle}
                 </h3>
                 <span className="text-sm text-gray-500 dark:text-gray-400">
-                  {dict.audioDescription || "Listen to Tengxian dialect samples"}
+                  {dict.Examples.audioDescription}
                 </span>
               </div>
               <audio
@@ -138,7 +131,7 @@ export default function Examples({ dict }: ExamplesProps) {
                   }}
                   className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
                 >
-                  {dict.replay || "Replay"}
+                  {dict.Examples.replay}
                 </button>
               </div>
             </div>

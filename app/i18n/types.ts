@@ -16,6 +16,8 @@ export interface Dictionary {
     description_3: string;
     getStarted: string;
     scrollIndicator: string;
+    btn: string;
+    btn_2: string;
   };
   aiSaaS: {
     title: string;
@@ -30,6 +32,12 @@ export interface Dictionary {
     description: string;
     speakers: string;
     period: string;
+    timestamp: string;
+    mandarin: string;
+    tengxian: string;
+    audioTitle: string;
+    audioDescription: string;
+    replay: string;
   };
   features: {
     title: string;

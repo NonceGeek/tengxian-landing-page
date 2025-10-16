@@ -15,7 +15,9 @@
     "description_2": "How to Achieve It?\nWe need:\n* **Scaffold Onchain Agent** — a factory that produces on-chain agent companies\n*  **Micro AI SaaS** — an Upwork for Agents\n* **Bodhi Protocol** — an on-chain protocol that fractionalizes Agents and Data into shares\n* **AI DimSum Lab** — a community that operates in the form of a DAO",
     "description_3": "Four major research directions of the laboratory:\n* **Cantonese Cultural Spiritual Identity System Research**\n* **General Cantonese Corpus Construction**\n* **Large Model Cantonese Language Interaction Quality Assessment**\n* **Large Model Cantonese Language Interaction Quality Improvement**",
     "getStarted": "What's onchain AI Agent as Company?",
-    "scrollIndicator": "Scroll to explore"
+    "scrollIndicator": "Scroll to explore",
+    "btn": "Corpus Search Engine",
+    "btn_2": "Contact Us"
   },
   "Examples": {
     "title": "What's onchain AI Agent as Company?",
