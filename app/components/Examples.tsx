@@ -107,7 +107,7 @@ export default function Examples({ dict }: ExamplesProps) {
               </div>
               <audio
                 className="w-full focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
-                src="/demo.m4a"
+                src="https://alioss.aidimsum.com/%E4%B8%AA%E4%BA%BA%E5%9B%9E%E5%BF%86-%E4%BA%BA%E7%89%A9-%E6%88%91%E7%9A%84%E5%A7%90%E5%A7%90.wav"
                 preload="metadata"
                 controls
                 controlsList="nodownload"
