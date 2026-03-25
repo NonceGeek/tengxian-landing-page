@@ -30,7 +30,12 @@
     "audioTitle": "Tengxian Dialect Audio Sample",
     "audioDescription": "Listen to authentic Tengxian dialect recordings",
     "scrollToCurrent": "Scroll to current line",
-    "replay": "Replay Audio"
+    "replay": "Replay Audio",
+    "searchPlaceholder": "Search transcript…",
+    "searchButton": "Search",
+    "prevMatch": "Previous",
+    "nextMatch": "Next",
+    "searchNoResults": "No matches"
   },
   "aiSaaS": {
     "title": "What's AI SaaS?",

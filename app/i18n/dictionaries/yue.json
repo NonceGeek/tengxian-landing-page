@@ -30,6 +30,11 @@
     "audioDescription": "聆聽地道嘅藤縣話錄音",
     "scrollToCurrent": "定位而家播放緊嘅臺詞",
     "replay": "重新播放",
+    "searchPlaceholder": "搜索臺詞關鍵詞",
+    "searchButton": "搜索",
+    "prevMatch": "上一處",
+    "nextMatch": "下一處",
+    "searchNoResults": "無匹配",
     "timestamp": "時間戳",
     "mandarin": "普通話",
     "tengxian": "藤縣話"
