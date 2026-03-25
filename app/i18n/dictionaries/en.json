@@ -35,7 +35,8 @@
     "searchButton": "Search",
     "prevMatch": "Previous",
     "nextMatch": "Next",
-    "searchNoResults": "No matches"
+    "searchNoResults": "No matches",
+    "searchClear": "Clear search"
   },
   "aiSaaS": {
     "title": "What's AI SaaS?",

@@ -36,7 +36,8 @@
     "searchButton": "搜索",
     "prevMatch": "上一处",
     "nextMatch": "下一处",
-    "searchNoResults": "无匹配"
+    "searchNoResults": "无匹配",
+    "searchClear": "清除搜索"
   },
   "bodhiProtocol": {
     "title": "什么是 Bodhi Protocol？",
