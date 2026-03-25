@@ -17,7 +17,7 @@ export default async function Home({ params }: PageProps) {
   const dict = await getDictionary(locale);
 
   return (
-    <div className="min-h-screen bg-base-100 relative overflow-hidden">
+    <div className="min-h-screen bg-base-100 relative overflow-x-clip">
       {/* 全局背景装饰 - 只在Hero区域可见的光源效果 */}
       <div className="absolute inset-0 pointer-events-none z-0" style={{height: '100vh'}}>
         {/* 背景渐变 */}

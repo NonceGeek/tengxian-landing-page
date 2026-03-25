@@ -31,7 +31,12 @@
     "audioTitle": "藤县话音频示例",
     "audioDescription": "聆听地道的藤县话录音",
     "scrollToCurrent": "跳转到当前播放",
-    "replay": "重新播放"
+    "replay": "重新播放",
+    "searchPlaceholder": "搜索台词关键词",
+    "searchButton": "搜索",
+    "prevMatch": "上一处",
+    "nextMatch": "下一处",
+    "searchNoResults": "无匹配"
   },
   "bodhiProtocol": {
     "title": "什么是 Bodhi Protocol？",

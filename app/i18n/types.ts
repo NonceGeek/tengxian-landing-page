@@ -39,6 +39,11 @@ export interface Dictionary {
     audioDescription: string;
     scrollToCurrent: string;
     replay: string;
+    searchPlaceholder: string;
+    searchButton: string;
+    prevMatch: string;
+    nextMatch: string;
+    searchNoResults: string;
   };
   features: {
     title: string;
