@@ -12,6 +12,7 @@ import {
   Search,
   Volume2,
   VolumeX,
+  X,
 } from "lucide-react";
 
 interface CorpusEntry {
@@ -258,10 +259,17 @@ export default function Examples({ dict }: ExamplesProps) {
       behavior: "smooth",
       block: "start",
     });
-  }, [currentMatchIndex, appliedSearchQuery, searchMatches.length, rowScrollMarginPx]);
+  }, [currentMatchIndex, appliedSearchQuery, searchMatches.length]);
 
   const runSearch = () => {
-    setAppliedSearchQuery(searchInput.trim());
+    const q = searchInput.trim();
+    setAppliedSearchQuery(q);
+    setCurrentMatchIndex(0);
+  };
+
+  const clearSearch = () => {
+    setSearchInput("");
+    setAppliedSearchQuery("");
     setCurrentMatchIndex(0);
   };
 
@@ -586,17 +594,34 @@ export default function Examples({ dict }: ExamplesProps) {
             <div className="flex flex-col gap-3 pt-0.5 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
               <div className="flex flex-col gap-2">
                 <div className="flex flex-wrap items-center gap-2">
-                  <input
-                    type="search"
-                    value={searchInput}
-                    onChange={(e) => setSearchInput(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") runSearch();
-                    }}
-                    placeholder={dict.Examples.searchPlaceholder}
-                    className="min-w-[10rem] flex-1 rounded-lg border border-white/25 bg-white/10 px-3 py-1.5 text-sm text-zinc-100 placeholder:text-zinc-400 outline-none focus:ring-2 focus:ring-primary/50 sm:max-w-xs"
-                    aria-label={dict.Examples.searchPlaceholder}
-                  />
+                  <div className="relative min-w-[10rem] flex-1 sm:max-w-xs">
+                    <input
+                      type="text"
+                      role="searchbox"
+                      value={searchInput}
+                      onChange={(e) => setSearchInput(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") runSearch();
+                        if (e.key === "Escape") clearSearch();
+                      }}
+                      placeholder={dict.Examples.searchPlaceholder}
+                      className={`w-full rounded-lg border border-white/25 bg-white/10 py-1.5 text-sm text-zinc-100 placeholder:text-zinc-400 outline-none focus:ring-2 focus:ring-primary/50 ${
+                        appliedSearchQuery || searchInput ? "pl-3 pr-9" : "px-3"
+                      }`}
+                      aria-label={dict.Examples.searchPlaceholder}
+                    />
+                    {(appliedSearchQuery || searchInput) ? (
+                      <button
+                        type="button"
+                        onClick={clearSearch}
+                        className="absolute right-1.5 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-md text-zinc-300 hover:bg-white/15 hover:text-zinc-100"
+                        aria-label={dict.Examples.searchClear}
+                        title={dict.Examples.searchClear}
+                      >
+                        <X className="h-4 w-4" aria-hidden />
+                      </button>
+                    ) : null}
+                  </div>
                   <button
                     type="button"
                     onClick={runSearch}

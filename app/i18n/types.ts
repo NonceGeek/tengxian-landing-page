@@ -44,6 +44,7 @@ export interface Dictionary {
     prevMatch: string;
     nextMatch: string;
     searchNoResults: string;
+    searchClear: string;
   };
   features: {
     title: string;
