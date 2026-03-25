@@ -37,6 +37,7 @@ export interface Dictionary {
     tengxian: string;
     audioTitle: string;
     audioDescription: string;
+    scrollToCurrent: string;
     replay: string;
   };
   features: {
